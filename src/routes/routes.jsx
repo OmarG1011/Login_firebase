@@ -17,7 +17,7 @@ export function Myroute() {
 
     }, [])
     return (
-        <Router>
+        <Router basename="/Login_firebase/">
             <Routes>
                 <Route exact path="/" element={<Login />} />
                 <Route exact path="/home" element={<Home name={userName} />} />
