@@ -1,0 +1,75 @@
+/* Contenedor principal del login */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Caja interna del login */
+.innerBox {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+/* Título del login */
+.heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+.footer {
+    margin-top: 1rem;
+}
+
+.error {
+    color: red;
+    font-size: 0.9rem;
+}
+
+/* Botón de login */
+.button {
+    width: 100%;
+    padding: 10px;
+    background: #667eea;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.button:hover:not(:disabled) {
+    background: #5a67d8;
+}
+
+/* Enlace de registro */
+p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+p span a {
+    color: #667eea;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p span a:hover {
+    text-decoration: underline;
+}

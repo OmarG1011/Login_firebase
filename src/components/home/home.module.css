@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    flex-direction: column; /* Los elementos se apilan verticalmente */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    padding: 20px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+/* Contenedor de los enlaces */
+.linkContainer {
+    display: flex;
+    flex-direction: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Estilos para los enlaces */
+.linkContainer h1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 12px 24px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    min-width: 140px; /* Para que ambos botones tengan el mismo tamaño */
+    text-align: center;
+}
+
+.linkContainer h1 a:hover {
+    background: white;
+    color: #764ba2;
+    transform: translateY(-3px);
+}
+
+/* Estilos para el mensaje de bienvenida */
+.welcomeMessage {
+    font-size: 1.8rem;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    backdrop-filter: blur(5px);
+}
+
+/* Botón de salir */
+.button {
+    padding: 12px 50px;
+    background: #ff4d4d;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid transparent;
+}
+
+.button:hover {
+    background: white;
+    color: #ff4d4d;
+    border: 2px solid #ff4d4d;
+    transform: translateY(-3px);
+}
+
+.header {
+    justify-content: center;
+    display: flex;
+    gap: 20px; /* Espacio entre el mensaje y el botón */
+}
+
+.table_container {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+th{
+    background: #764ba2;
+}
